@@ -1,0 +1,29 @@
+# Dependensi Composer
+/vendor/
+composer.lock
+
+# Cache Composer
+/.composer/
+/cache/
+
+# Berkas Konfigurasi IDE / Editor
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# Berkas Sistem Operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Berkas Log & Laporan Hasil PHPUnit (Coverage, JUnit XML, dll)
+/.phpunit.cache/
+/build/
+/coverage/
+/log/
+*.log
+junit.xml
